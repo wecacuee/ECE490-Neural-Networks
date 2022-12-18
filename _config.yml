@@ -1,0 +1,51 @@
+url: https://vikasdhiman.info
+baseurl: /ECE490-Neural-Networks
+remote_theme:  samarsault/plainwhite-jekyll
+title: Neural Networks (ECE490) at the University of Maine
+author: Vikas Dhiman
+description: Neural Networks (ECE490) at the University of Maine
+show_excerpts: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 10
+
+
+header_pages:
+  - schedule.md
+  - syllabus.md
+  - category/lectures
+  - category/announcments
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-remote-theme
+
+plainwhite:
+  name: Neural Networks (ECE490)
+  tagline: |
+     Autograd, Optimization, Visualization
+
+  sitemap: true
+
+  search: true
+
+  html_lang: "en"
+
+  navigation:
+    - title: Syllabus
+      url: "https://docs.google.com/document/d/e/2PACX-1vS73JkG6EWlYAphXwjDxdVcryT7SmCGtot2wpqLQfjV5KrozNmVwHoVtT2qyAvDERZk0y2dBfVU_QJE/pub"
+    - title: Schedule
+      url: "/schedule"
+    - title: Similar courses
+      url: "/similar-courses"
+
+  portfolio_image: images/Transistor_Bistable_interactive_animated-en.svg
+    
+  condensed_mobile:
+    - Home
+    - Schedule
+    - Similar courses
