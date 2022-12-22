@@ -43,7 +43,7 @@ plainwhite:
     - title: Similar courses
       url: "/similar-courses"
 
-  portfolio_image: images/Transistor_Bistable_interactive_animated-en.svg
+  portfolio_image: assets/Neural_network_example.svg
     
   condensed_mobile:
     - Home
