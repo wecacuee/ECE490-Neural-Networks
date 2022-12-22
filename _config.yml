@@ -15,8 +15,8 @@ paginate: 10
 header_pages:
   - schedule.md
   - syllabus.md
-  - category/lectures
-  - category/announcments
+  - categories/lectures.md
+  - categories/announcements.md
 
 plugins:
   - jekyll-paginate

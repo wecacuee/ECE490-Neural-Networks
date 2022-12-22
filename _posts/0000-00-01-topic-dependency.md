@@ -1,7 +1,7 @@
 ---
 title: Topic dependency
 layout: post
-category: announcement
+category: announcements
 excerpt_separator: <!--more-->
 date: 2022-01-17
 ---
