@@ -1,0 +1,2 @@
+libpython3-dev
+python3-numpy

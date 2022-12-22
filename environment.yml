@@ -1,0 +1,11 @@
+name: xeus-cling-binder
+channels:
+  - Quantstack
+  - conda-forge
+dependencies:
+  - notebook
+  - eigen
+  - numpy
+  - matplotlib
+  - xeus-cling
+
