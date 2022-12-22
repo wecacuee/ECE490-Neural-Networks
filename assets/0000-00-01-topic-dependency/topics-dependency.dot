@@ -1,0 +1,120 @@
+strict digraph ECE490 {
+    rankdir=LR
+        node [
+        color=green
+        ];
+    node [
+        color=black
+    ];
+    {
+        AutoDiff
+            Optimization
+            WeightInitialization
+            NearestNeighbor
+            Visualization
+            DecisionTrees
+            LinearModels
+            PCA
+            MachineLearning
+    } -> NeuralNetwork;
+
+    PythonBasics -> Visualization;
+
+    {
+        Calculus
+        MatrixMultiplication
+        OperatorOverloading
+        PythonBasics
+    } -> AutoDiff;
+
+    {
+        Calculus [color=green,URL="https://www.khanacademy.org/math/ap-calculus-ab/ab-diff-analytical-applications-new#ab-5-11"]
+            GradientDescent
+            StochasticGD
+            LossFunctions
+    } -> Optimization;
+
+    {
+        Projection
+    } -> PCA;
+
+    subgraph cluster_LinearAlgebra {
+        node [color=green]
+        {
+            SystemofLinEq
+            Matrices
+            MatrixMultiplication
+            DotProduct
+        } -> Projection  [constraint=false];
+        Norms -> LossFunctions
+        Norms -> NearestNeighbor
+        { 
+            Norms
+            Calculus
+        }-> LinearModels;
+        label = "Linear Algebra"
+        color = orange
+    }
+
+    subgraph cluster_Probability {
+        node [color=green]
+        {
+            Prior
+            Likelihood
+            Posterior
+        } -> MachineLearning;
+
+        {
+            BayesTheorem
+            CrossEntropy
+            Regularization
+        } -> LossFunctions;
+
+        {
+            Distributions
+            Sampling
+        } -> WeightInitialization
+
+        label = "Probability"
+        color = blue
+    }
+
+    // {
+    //     ObjectOrientedProg
+    //     FunctionalProg
+    //     VariableScope
+    //     GarbageCollection
+    //     ArrayLibraries
+    // } -> PythonBasics;
+
+    {
+        ObjectOrientedProg
+        OperatorOverloading
+        FunctionalProg
+    } -> PythonBasics;
+
+    subgraph cluster_CProg {
+        node [color=green]
+        {
+            CStruct
+                [URL="https://www.cprogramming.com/tutorial/c/lesson7.html"];
+            CFuncPtr
+                [URL="https://www.cprogramming.com/tutorial/function-pointers.html"];
+            CCntrlStruct
+                [URL="https://www.cprogramming.com/tutorial/c/lesson3.html"];
+            CMemAlloc
+                [URL="https://www.cprogramming.com/tutorial/c/lesson6.html"];
+            CPtrs
+                [URL="https://www.cprogramming.com/tutorial/c/lesson6.html"];
+            CVaribleScope;
+        } -> PythonBasics
+        // ObjectOrientedProg -> CStruct
+        // FunctionalProg -> CFuncPtr
+        // VariableScope -> CCntrlStruct
+        // GarbageCollection -> CMemAlloc
+        // ArrayLibraries -> CPtrs
+
+        label = "C Programming"
+        color = red
+    }
+}
