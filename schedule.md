@@ -16,6 +16,11 @@ title: Schedule
 
 *  Why neural networks
 
+## Homework 0
+
+<!-- Make binder link -->
+* [{{site.baseurl}}/assets/0000-00-02-prereq-hw/hw0.pdf]()
+
 ## Python programming
 *  Python: Object oriented programming
 *  Python: Functional programming
