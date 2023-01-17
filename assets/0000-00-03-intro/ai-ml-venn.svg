@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="119.66222mm"
+   height="101.6mm"
+   viewBox="0 0 119.66222 101.6"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="drawing-1.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="128.00929"
+     inkscape:cy="70.43637"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1399"
+     inkscape:window-height="996"
+     inkscape:window-x="2437"
+     inkscape:window-y="82"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid819"
+       originx="1.4305116e-06"
+       originy="-214.3125" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.4305115e-6,18.912498)">
+    <rect
+       style="opacity:0.6;fill:#5fd3bc;stroke:none;stroke-width:1.17404437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect821-3"
+       width="119.66222"
+       height="101.6"
+       x="1.0108947e-06"
+       y="-18.912498"
+       ry="3.334738" />
+    <rect
+       style="opacity:0.6;fill:#ddff55;stroke:none;stroke-width:1.17404437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect821"
+       width="117.40444"
+       height="85.795555"
+       x="1.0108947e-06"
+       y="-18.912498"
+       ry="3.3347375" />
+    <rect
+       style="opacity:0.6;fill:#ff9955;stroke:none;stroke-width:1.17404437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect817"
+       width="115.14666"
+       height="67.73333"
+       x="-1.4305115e-06"
+       y="-18.912498"
+       ry="3.3347375" />
+    <rect
+       style="opacity:0.6;fill:#ff2a2a;stroke:none;stroke-width:1.17404437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect815"
+       width="112.88889"
+       height="27.093332"
+       x="1.0108927e-06"
+       y="-18.912498"
+       ry="3.3347375" />
+    <rect
+       style="opacity:0.6;fill:#ac9393;stroke:none;stroke-width:1.17404437;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect823"
+       width="67.73333"
+       height="49.671116"
+       x="-1.227061e-06"
+       y="-18.912498"
+       ry="3.3347375" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="9.8975496"
+       y="22.250109"
+       id="text827"><tspan
+         sodipodi:role="line"
+         id="tspan825"
+         x="9.8975496"
+         y="22.250109"
+         style="stroke-width:0.45155555">Neural Networks</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="73.161163"
+       y="-4.0237899"
+       id="text831"><tspan
+         sodipodi:role="line"
+         id="tspan829"
+         x="73.161163"
+         y="-4.0237899"
+         style="stroke-width:0.45155555">Deep Learning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="5.3361478"
+       y="-3.567651"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="5.3361478"
+         y="-3.567651"
+         style="stroke-width:0.45155555">Deep Neural Networks</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="37.126415"
+       y="41.774727"
+       id="text839"><tspan
+         sodipodi:role="line"
+         id="tspan837"
+         x="37.126415"
+         y="41.774727"
+         style="stroke-width:0.45155555">Machine Learning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="33.57098"
+       y="59.975655"
+       id="text843"><tspan
+         sodipodi:role="line"
+         id="tspan841"
+         x="33.57098"
+         y="59.975655"
+         style="stroke-width:0.45155555">Artificial Intelligence</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.81659269px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.45155555"
+       x="24.789713"
+       y="76.808136"
+       id="text862"><tspan
+         sodipodi:role="line"
+         id="tspan860"
+         x="24.789713"
+         y="76.808136"
+         style="stroke-width:0.45155555">Artificial General Intelligence</tspan></text>
+  </g>
+</svg>

@@ -12,9 +12,9 @@ title: Schedule
 
 [Link to Tentative schedule (Google sheets)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcpFgDuMa7kU-KxnyL38CPZGevyYSQtzbAN-nFSseT2CuskkHi7ffnf7rCF25STjucfxUz6P6cXqaO/pubhtml)
 
-## Intro
+## Week 1
 
-*  Why neural networks
+*  [Intro]({{site.baseurl}}/posts/0000-00-03-intro)
 
 ## Homework 0
 
