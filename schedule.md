@@ -12,13 +12,15 @@ title: Schedule
 
 [Link to Tentative schedule (Google sheets)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcpFgDuMa7kU-KxnyL38CPZGevyYSQtzbAN-nFSseT2CuskkHi7ffnf7rCF25STjucfxUz6P6cXqaO/pubhtml)
 
-## Week 1
+## Material by week
+
+### Week 1
 
 *  [Intro]({{site.baseurl}}/posts/0000-00-03-intro)
 
+<!-- 
 ## Homework 0
 
-<!-- Make binder link -->
 * [{{site.baseurl}}/assets/0000-00-02-prereq-hw/hw0.pdf]()
 
 ## Python programming
@@ -59,3 +61,4 @@ title: Schedule
 * Batch normalization and Dropout
 * Artificial Neural networks vs Biological
 * Classification using deep models
+-->
