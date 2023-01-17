@@ -16,7 +16,7 @@ title: Schedule
 
 ### Week 1
 
-* 01/17:  [Intro]({{site.baseurl}}/posts/0000-00-03-intro), [Prereq HW]({{site.baseurl}}/posts/0000-00-02-prereq-hw)
+* 01/17:  [Intro]({{site.baseurl}}/posts/0000-00-03-intro), [Prereq HW]({{site.baseurl}}/posts/0000-00-02-prereq-hw), [Video]({{site.baseurl}}/posts/2023-01-17-video)
 
 <!-- 
 ## Homework 0
