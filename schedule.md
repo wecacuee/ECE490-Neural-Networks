@@ -17,6 +17,7 @@ title: Schedule
 ### Week 1
 
 * 01/17:  [Intro]({{site.baseurl}}/posts/0000-00-03-intro), [Prereq HW: due 01/24]({{site.baseurl}}/posts/0000-00-02-prereq-hw), [Video]({{site.baseurl}}/posts/2023-01-17-video), [Reading: Python tutorial until Section 5](https://docs.python.org/3/tutorial/index.html)
+* 01/19: [Python_1.ipynb](https://colab.research.google.com/github/wecacuee/ECE490-Neural-Networks/blob/master/notebooks/01-py-intro/Python_1.ipynb)
 
 <!-- 
 ## Homework 0
