@@ -48,6 +48,8 @@ plainwhite:
       url: "https://calendar.app.google/xB6KFEtRnVmqcuaL7"
     - title: Discord Server
       url: "https://discord.gg/scQjettBXC"
+    - title: Nbgrader
+      url: "https://ece490s23.vikasdhiman.info"
 
   portfolio_image: assets/Neural_network_example.svg
     
