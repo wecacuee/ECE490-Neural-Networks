@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 // DONOT edit this 
-int randint(int min, int max) {
+long randint(long min, long max) {
     return rand() % (max - min)  + min;
 }
 
@@ -17,21 +17,24 @@ bool is_prime(long n, long* factor_p) {
 // DONOT edit this function
 bool test_prime() {
     long factor;
-    int n = randint(1, 1000);
+    long n = randint(1, 1000);
+    printf("testing n = %ld; ", n);
     if (!is_prime(n, &factor)) {
+	printf("%ld is composite; ", n);
         if (n % factor == 0) {
             return true;
         } else {
-            fprintf(stderr, "Fail for is_prime(%d, %ld)\n", n, factor);
+            fprintf(stderr, "Fail for is_prime(%ld, %ld)\n", n, factor);
             return false;
         }
     } else {
+	printf("%ld is prime; ", n);
         int i;
 	// Try 10 random factors
         for (i = 0; i < 20; ++i)
             factor = randint(2, n/2);
             if (n % factor == 0) {
-                fprintf(stderr, "Fail for is_prime(%d, %ld)\n", n, factor);
+                fprintf(stderr, "Fail for is_prime(%ld, %ld)\n", n, factor);
                 return false;
             }
         return true;
