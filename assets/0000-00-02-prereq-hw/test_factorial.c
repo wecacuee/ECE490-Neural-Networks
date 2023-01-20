@@ -11,7 +11,7 @@ long factorial(short n);
 
 // DONOT edit this
 bool test_factorial() {
-    short n = randint(0, 25);
+    short n = randint(1, 25);
     if (factorial(n) != n*factorial(n-1)) {
         fprintf(stderr, "Fail for factorial(%d)\n", n);
         return false;
@@ -27,7 +27,7 @@ long factorial(short n) {
 
 int main(int argc, char** argv) {
     if (factorial(0) != 1)
-      fprintf(stderr, "Fail for factorial(1) == 1\n");
+      fprintf(stderr, "Fail for factorial(0) == 1\n");
     if (factorial(3) != 6)
       fprintf(stderr, "Fail for factorial(3) == 6\n");
     if (factorial(5) != 120)
