@@ -17,13 +17,13 @@ bool is_prime(long n, long* factor_p) {
 // DONOT edit this function
 bool test_prime() {
     long factor;
-    int n = rand();
-    if (is_prime(n, &factor)) {
+    int n = randint(1, 1000);
+    if (!is_prime(n, &factor)) {
         if (n % factor == 0) {
+            return true;
+        } else {
             fprintf(stderr, "Fail for is_prime(%d, %ld)\n", n, factor);
             return false;
-        } else {
-            return true;
         }
     } else {
         int i;
