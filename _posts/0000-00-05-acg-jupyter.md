@@ -44,7 +44,7 @@ PowerShell or Putty.
 
 ## For Mac and Linux
 
-{:.bash}
+{:.text}
     vdhiman@office-desktop:~$ ssh vdhiman@katahdin.acg.maine.edu
     Last login: Sat Jan 21 13:37:12 2023 from jx3cth3.um.maine.edu
     vdhiman@katahdin:~$
@@ -59,7 +59,7 @@ By default, the OpenSSH client will be located in the directory: `C:\Windows\Sys
 ![]({{pageassetpath}}/ssh-optionalfeatures.png){: .width500}
 
 
-{:.bash}
+{:.text}
     PS C:\Users\vdhiman> ssh vdhiman@katahdin.acg.maine.edu
 
 ![]({{pageassetpath}}/powershell.png){: .width500}
@@ -76,7 +76,7 @@ By default, the OpenSSH client will be located in the directory: `C:\Windows\Sys
 
 Available libraries on acg servers are managed through [module](https://lmod.readthedocs.io/en/latest/010_user.html){: target="_blank"}. Some modules are loaded by default. You can see what modules are already loaded by using `module list`.
     
-{:.bash}
+{:.text}
     vdhiman@katahdin:~$ module list
 
     Currently Loaded Modules:
@@ -88,7 +88,7 @@ Available libraries on acg servers are managed through [module](https://lmod.rea
 
 You can list all the available modules through `module avail`
 
-{:.bash}
+{:.text}
     vdhiman@katahdin:~$ module avail                                                    
     --------------------- /opt/ohpc/pub/moduledeps/gnu8-mvapich2 ----------------------
        fftw/3.3.8
@@ -119,7 +119,7 @@ spider` or `module keyword`
 
 To search for module names that contain the word conda:
 
-{:.bash}
+{:.text}
     vdhiman@katahdin:~$ module avail conda
 
     ---------------------------- /opt/ohpc/pub/modulefiles ----------------------------
@@ -138,7 +138,7 @@ To search for module names that contain the word conda:
 Steve has helpfully installed jupyter in `anaconda3/2022.10` for ECE490.
 We will load `anaconda3/2022.10`.
 
-{:.bash}
+{:.text}
     vdhiman@katahdin:~$ module load anaconda3/2022.10
     vdhiman@katahdin:~$ module list # to check which modules are loaded now
 
@@ -174,7 +174,7 @@ Conda environment still needs to be initialized. We call `$INIT_CONDA` to
 initialize the environment. We can check `which` version `python` and
 `jupyter` are in the PATH. 
 
-{:.bash}
+{:.text}
     vdhiman@katahdin:~$ $INIT_CONDA
     (base) which python # which python is available?
     /opt/ohpc/pub/anaconda3/2022.10/bin/python
@@ -187,7 +187,7 @@ initialize the environment. We can check `which` version `python` and
 Let's first check if there are any jupyter notebooks already running. Because
 if they are, we do not want run a new one.
 
-{:.bash}
+{:.text}
     (base) jupyter notebook list
     Currently running servers:
     (base) 
@@ -196,7 +196,7 @@ It is clear that no jupyter notebooks are running. If there was one runnning,
 you can stop it with `jupyter notebook stop <PORT_NUMBER>`.
 Let's start a jupyter notebook.
 
-{:.bash}
+{:.text}
     (base) jupyter notebook --no-browser &
     [1] 3985
     (base) [I 2023-01-21 17:19:37.889 LabApp] JupyterLab extension loaded from /opt/ohpc/pub/anaconda3/2022.10/lib/python3.9/site-packages/jupyterlab
@@ -257,14 +257,14 @@ Log out of the ssh session on katahdin. Press Ctrl+D to logout. We will login ag
 
 You can create a forward any REMOTE_PORT and a LOCAL_PORT using 
 
-{:.bash}
+{:.text}
     ssh -L <LOCAL_PORT>:localhost:<REMOTE_PORT> vdhiman@katahdin.acg.maine.edu
 
 For example, my jupyter notebook printed port 8889 which is my REMOTE_PORT;
 and I decided to use 8888 as the LOCAL_PORT. You can use any port number
 greater than 1024 and smaller than 65535 as the LOCAL_PORT.
 
-{:.bash}
+{:.text}
     vdhiman@office-desktop:~$ ssh -L 8888:localhost:8889 vdhiman@katahdin.acg.maine.edu
     Last login: Sat Jan 21 15:58:54 2023 from jx3cth3.um.maine.edu
     vdhiman@katahdin:~$
