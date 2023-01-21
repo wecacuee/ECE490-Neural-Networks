@@ -8,8 +8,11 @@ show_excerpts: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: coderay
 permalink: /posts/:path/
 paginate: 10
+highlighter: pygments
 
 
 header_pages:
