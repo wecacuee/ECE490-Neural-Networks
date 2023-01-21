@@ -1,7 +1,7 @@
 ---
 title: Running Jupyter on ACG Katahdin
 layout: post
-category: lecture
+category: lectures
 date: 2023-01-19
 ---
 {% capture pageassetpath %}{{site.baseurl}}/{{ page.path | replace: "_posts", "assets" | replace: ".md", "" }}{% endcapture %}
