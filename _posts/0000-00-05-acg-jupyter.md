@@ -10,6 +10,9 @@ date: 2023-01-19
     width: 400pt
 }
 </style>
+We will learn how to run Jupyter notebook on ACG Katahdin and access it on your
+laptop by port forwarding.
+
 # Table of Contents
 {:.no_toc}
 
