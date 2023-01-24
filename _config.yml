@@ -9,7 +9,8 @@ show_excerpts: true
 # Build settings
 markdown: kramdown
 kramdown:
-  syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers:
 permalink: /posts/:path/
 paginate: 10
 highlighter: pygments
