@@ -28,7 +28,12 @@ title: Schedule
 ### Week 2: Python crashcourse
 
 * 01/24:
-    + [Python_1.ipynb](https://colab.research.google.com/github/wecacuee/ECE490-Neural-Networks/blob/master/notebooks/01-py-intro/Python_1.ipynb)
+    + [Python_1.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_1.ipynb)  
+    + [Video]({{site.baseurl}}/posts/2023-01-24-python-1-video)
+    
+* 01/26:
+    + [Python_1.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_1.ipynb)
+    + [Python_2.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_2.ipynb)
 
 <!-- 
 ## Homework 0
