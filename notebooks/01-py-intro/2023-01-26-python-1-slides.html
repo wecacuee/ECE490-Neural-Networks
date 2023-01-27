@@ -11,6 +11,10 @@
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="https://unpkg.com/reveal.js@4.0.2/dist/reveal.css">
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reveal.js-plugins@4.1.5/chalkboard/style.css"
+      >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -19312,13 +19316,13 @@ Traceback <span class="ansi-cyan-fg">(most recent call last)</span>:
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Read-More">Read More<a class="anchor-link" href="#Read-More">&#182;</a></h2><ol>
 <li><p><a href="https://docs.python.org/3/reference/lexical_analysis.html#keywords">List of all Python Keywords</a></p>
-<p>False      await      else       import     pass
+<pre>False      await      else       import     pass
  None       break      except     in         raise
  True       class      finally    is         return
  and        continue   for        lambda     try
  as         def        from       nonlocal   while
  assert     del        global     not        with
- async      elif       if         or         yield</p>
+ async      elif       if         or         yield</pre>
 </li>
 <li><p><a href="https://docs.python.org/3/library/functions.html#built-in-funcs">List of all Python builtins</a></p>
 </li>
@@ -19339,6 +19343,9 @@ Traceback <span class="ansi-cyan-fg">(most recent call last)</span>:
 
 
 
+<script
+    src="https://cdn.jsdelivr.net/npm/reveal.js-plugins@4.1.5/chalkboard/plugin.js"
+    ></script>
 
 <script>
 require(
@@ -19349,11 +19356,9 @@ require(
     },
     [
       "https://unpkg.com/reveal.js@4.0.2/dist/reveal.js",
-      "https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js",
-      "https://cdn.jsdelivr.net/npm/reveal.js-plugins@4.1.5/chalkboard/plugin.js"
+      "https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"
     ],
-
-    function(Reveal, RevealNotes){
+    function(Reveal, RevealNotes) {
         // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
             controls: true,
@@ -19362,7 +19367,8 @@ require(
             transition: "slide",
             slideNumber: "",
             chalkboard : {
-                'src' : '2023-01-26-python-1-slides-chalkboard.json',
+                storage: "chalkboard-demo",
+                src : '2023-01-26-python-1-slides-chalkboard.json',
               },
             plugins: [RevealChalkboard, RevealNotes]
         });
