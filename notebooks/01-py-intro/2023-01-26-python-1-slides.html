@@ -19349,7 +19349,8 @@ require(
     },
     [
       "https://unpkg.com/reveal.js@4.0.2/dist/reveal.js",
-      "https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js"
+      "https://unpkg.com/reveal.js@4.0.2/plugin/notes/notes.js",
+      "https://cdn.jsdelivr.net/npm/reveal.js-plugins@4.1.5/chalkboard/plugin.js"
     ],
 
     function(Reveal, RevealNotes){
@@ -19360,7 +19361,10 @@ require(
             history: true,
             transition: "slide",
             slideNumber: "",
-            plugins: [RevealNotes]
+            chalkboard : {
+                'src' : '2023-01-26-python-1-slides-chalkboard.json',
+              },
+            plugins: [RevealChalkboard, RevealNotes]
         });
 
         var update = function(event){

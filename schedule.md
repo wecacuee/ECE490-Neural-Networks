@@ -32,6 +32,7 @@ title: Schedule
     + [Video]({{site.baseurl}}/posts/2023-01-24-python-1-video)
     
 * 01/26:
+    + [Slides]({{site.baseurl}}/notebooks/01-py-intro/2023-01-26-python-1-slides.html), [Video]({{site.baseurl}}/posts/2023-01-26-python-1-video)
     + [Python_1.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_1.ipynb)
     + [Python_2.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_2.ipynb)
 
