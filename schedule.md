@@ -12,16 +12,16 @@ title: Schedule
 
 [Link to Tentative schedule (Google sheets)](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcpFgDuMa7kU-KxnyL38CPZGevyYSQtzbAN-nFSseT2CuskkHi7ffnf7rCF25STjucfxUz6P6cXqaO/pubhtml)
 
-## Material
+## Materials table
 
-|Date |Material            |Video         |Reading       | Homework       |
-|-----|------------------- |--------------|--------------|----------------|
-|01/17| [Slides][S03]      | [🎥][V0117]  | [📖][RPY3T]  | [HW][HW02P]    |
-|01/19| [Slides][S05]      | [🎥][V0119]  |              |                |
-|01/24| [IPYNB][IP011]     | [🎥][V0124]  | [📖][RPY3T]  |                |
-|01/26| [Slides][S0126]    | [🎥][V0126]  | [📖][RPYDM]  | [IPYNB][IP012] |
-|01/31| [Slides][S07]      | [🎥][V0131]  |              |                |
-|     | [IPYNB][IP021]     |              |              |                |
+|Date |Material            |   🎥         |Reading        | Homework       |
+|-----|------------------- |--------------|---------------|----------------|
+|01/17| [Slides][S03]      | [🎥][V0117]  | [Py3][RPY3T]  | [HW][HW02P]    |
+|01/19| [Slides][S05]      | [🎥][V0119]  |               |                |
+|01/24| [IPYNB][IP011]     | [🎥][V0124]  | [Py3][RPY3T]  |                |
+|01/26| [Slides][S0126]    | [🎥][V0126]  | [PyD][RPYDM]  | [IPYNB][IP012] |
+|01/31| [Slides][S07]      | [🎥][V0131]  |               |                |
+|     | [IPYNB][IP021]     |              |               |                |
 
 ## Material by week
 
@@ -65,7 +65,7 @@ title: Schedule
 
 
 [S0126]: {{site.baseurl}}/notebooks/01-py-intro/2023-01-26-python-1-slides.html
-[V0126]: {{site.baseurl}}/posts/2023-01-26-python-1-video
+[V0126]: {{site.baseurl}}/posts/2023-01-26-py2-video
 [IP012]: {{site.baseurl}}/notebooks/01-py-intro/Python_2.ipynb
 [RPYDM]: https://docs.python.org/3/reference/datamodel.html
 
