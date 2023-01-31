@@ -41,7 +41,11 @@ title: Schedule
 
 * 01/31:
     + [LinearModels.ipynb]({{site.baseurl}}/notebooks/02-linear-models/LinearModels.ipynb)
-    + [LinearModels slides.pdf]({{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels slides.pdf)
+    + [LinearModels slides annotated.pdf]({{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels slides.pdf.pdf)
+    + [Video coming soon]()
+ 
+ 
+ 
  
 <!-- 
 ## Homework 0
