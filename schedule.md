@@ -36,7 +36,12 @@ title: Schedule
     + [Python_1.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_1.ipynb)
     + [Python_2.ipynb]({{site.baseurl}}/notebooks/01-py-intro/Python_2.ipynb)
     + Recommended reading: [Python tutorial](https://docs.python.org/3/tutorial/modules.html) and [Python Data Model](https://docs.python.org/3/reference/datamodel.html)
+    
+### Week 3: Linear Models
 
+* 01/31:
+    + [LinearModels.ipynb]({{site.baseurl}}/notebooks/02-linear-models/LinearModels.ipynb)
+    + [LinearModels slides.pdf]({{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels slides.pdf)
 <!-- 
 ## Homework 0
 
