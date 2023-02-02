@@ -17,14 +17,14 @@ title: Schedule
 
 | Date  | Material            |   🎥         | Readings      | Homework       |
 | ----- | ------------------- | ------------ | ------------- | -------------- |
-| 01/17 |  [Slides][S03]      | [🎥][V0117]  | [Py3][RPY3T]  | [HW][HW02P]    |
+| 01/17 | [Slides][S03]       | [🎥][V0117]  | [Py3][RPY3T]  | [HW0][HW02P]   |
 | 01/19 |  [Slides][S05]      | [🎥][V0119]  |               |                |
-| 01/24 |  [IPYNB][IP011]     | [🎥][V0124]  | [Py3][RPY3T]  |                |
-| 01/26 |  [Slides][S0126]    | [🎥][V0126]  | [PyD][RPYDM]  | [IPYNB][IP012] |
+| 01/24 | [IPYNB][IP011]      | [🎥][V0124]  | [Py3][RPY3T]  |                |
+| 01/26 | [Slides][S0126]     | [🎥][V0126]  | [PyD][RPYDM]  | [HW1][IP012]   |
 | 01/31 |  [Slides][S021]     | [🎥][V0131]  | [1][PyMPL]    |                |
 |       |  [IPYNB][IP021]     |              | [2][PyNP]     |                |
 |       |                     |              | [3][MML2]     |                |
-| 02/02 |  [Slides][S022]     | [🎥][V0131]  | [4][MML2]     | [IPYNB][IP022] |
+| 02/02 | [Slides][S022]      | [🎥][V0131]  | [4][MML2]     | [HW2][HW202]  |
 
 
 ## Material by week
