@@ -14,14 +14,16 @@ title: Schedule
 
 ## Materials table
 
-|Date |Material            |   🎥         |Reading        | Homework       |
-|-----|------------------- |--------------|---------------|----------------|
-|01/17| [Slides][S03]      | [🎥][V0117]  | [Py3][RPY3T]  | [HW][HW02P]    |
-|01/19| [Slides][S05]      | [🎥][V0119]  |               |                |
-|01/24| [IPYNB][IP011]     | [🎥][V0124]  | [Py3][RPY3T]  |                |
-|01/26| [Slides][S0126]    | [🎥][V0126]  | [PyD][RPYDM]  | [IPYNB][IP012] |
-|01/31| [Slides][S07]      | [🎥][V0131]  |               |                |
-|     | [IPYNB][IP021]     |              |               |                |
+| Date  | Material            |   🎥         | Readings      | Homework       |
+| ----- | ------------------- | ------------ | ------------- | -------------- |
+| 01/17 |  [Slides][S03]      | [🎥][V0117]  | [Py3][RPY3T]  | [HW][HW02P]    |
+| 01/19 |  [Slides][S05]      | [🎥][V0119]  |               |                |
+| 01/24 |  [IPYNB][IP011]     | [🎥][V0124]  | [Py3][RPY3T]  |                |
+| 01/26 |  [Slides][S0126]    | [🎥][V0126]  | [PyD][RPYDM]  | [IPYNB][IP012] |
+| 01/31 |  [Slides][S07]      | [🎥][V0131]  | [1][PyMPL]    |                |
+|       |  [IPYNB][IP021]     |              | [2][PyNP]     |                |
+|       |                     |              | [3][MML1]     |                |
+
 
 ## Material by week
 
@@ -79,7 +81,9 @@ title: Schedule
 [IP021]: {{site.baseurl}}/notebooks/02-linear-models/LinearModels.ipynb
 [S07]: {{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels%20slides.pdf.pdf
 [V0131]: {{site.baseurl}}/posts/2023-01-31-linear-models-video
- 
+[MML01]: https://mml-book.github.io/ "Chapter 2 of MML Book"
+[PyMPL]: https://matplotlib.org/stable/tutorials/index.html
+[PyNP]: https://numpy.org/devdocs/user/quickstart.html
  
 <!-- 
 ## Homework 0
