@@ -1,0 +1,10 @@
+name: ece490
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - matplotlib
+    - k3d
