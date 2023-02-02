@@ -77,6 +77,10 @@ title: Schedule
     + [LinearModels.ipynb][IP021]
     + [LinearModels slides annotated.pdf][S07]
     + [Video ][V0131]
+    
+* 02/01
+   + [LinearModels2.pdf][S08]
+   + [PlaneFitProblem.ipynb][HW102]
 
 [IP021]: {{site.baseurl}}/notebooks/02-linear-models/LinearModels.ipynb
 [S07]: {{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels%20slides.pdf.pdf
@@ -85,6 +89,10 @@ title: Schedule
 [PyMPL]: https://matplotlib.org/stable/tutorials/index.html
 [PyNP]: https://numpy.org/devdocs/user/quickstart.html
  
+[IP022]: {{site.baseurl}}/notebooks/02-linear-models/LinearModels2.ipynb
+[S08]: {{site.baseurl}}/notebooks/02-linear-models/lm2/LinearModels2.pdf
+[HW102]: {{site.baseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
+
 <!-- 
 ## Homework 0
 
