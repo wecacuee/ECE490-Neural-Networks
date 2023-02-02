@@ -83,6 +83,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coderay
   jekyll-feed
   jekyll-paginate
   jekyll-remote-theme

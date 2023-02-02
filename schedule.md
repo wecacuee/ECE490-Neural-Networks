@@ -2,6 +2,7 @@
 layout: page
 title: Schedule
 ---
+{% capture colabbaseurl %}https://colab.research.google.com/github/wecacuee/ECE490-Neural-Networks/blob/master/{% endcapture %}
 # Table of contents
 {:.no_toc}
 
@@ -20,9 +21,10 @@ title: Schedule
 | 01/19 |  [Slides][S05]      | [🎥][V0119]  |               |                |
 | 01/24 |  [IPYNB][IP011]     | [🎥][V0124]  | [Py3][RPY3T]  |                |
 | 01/26 |  [Slides][S0126]    | [🎥][V0126]  | [PyD][RPYDM]  | [IPYNB][IP012] |
-| 01/31 |  [Slides][S07]      | [🎥][V0131]  | [1][PyMPL]    |                |
+| 01/31 |  [Slides][S021]     | [🎥][V0131]  | [1][PyMPL]    |                |
 |       |  [IPYNB][IP021]     |              | [2][PyNP]     |                |
-|       |                     |              | [3][MML1]     |                |
+|       |                     |              | [3][MML2]     |                |
+| 02/02 |  [Slides][S022]     | [🎥][V0131]  | [4][MML2]     | [IPYNB][IP022] |
 
 
 ## Material by week
@@ -68,30 +70,33 @@ title: Schedule
 
 [S0126]: {{site.baseurl}}/notebooks/01-py-intro/2023-01-26-python-1-slides.html
 [V0126]: {{site.baseurl}}/posts/2023-01-26-py2-video
-[IP012]: {{site.baseurl}}/notebooks/01-py-intro/Python_2.ipynb
+[IP012]: {{colabbaseurl}}/notebooks/01-py-intro/Python_2.ipynb
 [RPYDM]: https://docs.python.org/3/reference/datamodel.html
 
 ### Week 3: Linear Models
 
 * 01/31:
     + [LinearModels.ipynb][IP021]
-    + [LinearModels slides annotated.pdf][S07]
+    + [LinearModels slides annotated.pdf][S021]
     + [Video ][V0131]
     
 * 02/01
-   + [LinearModels2.pdf][S08]
-   + [PlaneFitProblem.ipynb][HW102]
+   + [LinearModels2.pdf][S022]
+   + [PlaneFitProblem.ipynb][HW202]
+   + [Video][V0202]
+   + [Read Chapter 2 of MML Book][MML2]
 
-[IP021]: {{site.baseurl}}/notebooks/02-linear-models/LinearModels.ipynb
-[S07]: {{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels%20slides.pdf.pdf
+[IP021]: {{colabbaseurl}}/notebooks/02-linear-models/LinearModels.ipynb
+[S021]: {{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels%20slides.pdf.pdf
 [V0131]: {{site.baseurl}}/posts/2023-01-31-linear-models-video
-[MML01]: https://mml-book.github.io/ "Chapter 2 of MML Book"
+[MML2]: https://mml-book.github.io/ "Chapter 2 of MML Book"
 [PyMPL]: https://matplotlib.org/stable/tutorials/index.html
 [PyNP]: https://numpy.org/devdocs/user/quickstart.html
  
-[IP022]: {{site.baseurl}}/notebooks/02-linear-models/LinearModels2.ipynb
-[S08]: {{site.baseurl}}/notebooks/02-linear-models/lm2/LinearModels2.pdf
-[HW102]: {{site.baseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
+[IP022]: {{colabbaseurl}}/notebooks/02-linear-models/LinearModels2.ipynb
+[S022]: {{site.baseurl}}/notebooks/02-linear-models/lm2/LinearModels2.pdf.pdf
+[HW202]: {{colabbaseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
+[V0202]: {{site.baseurl}}/posts/2023-02-02-lm2-video
 
 <!-- 
 ## Homework 0
