@@ -95,7 +95,7 @@ title: Schedule
  
 [IP022]: {{colabbaseurl}}/notebooks/02-linear-models/LinearModels2.ipynb
 [S022]: {{site.baseurl}}/notebooks/02-linear-models/lm2/LinearModels2.pdf.pdf
-[HW202]: {{colabbaseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
+[HW202]: https://mybinder.org/v2/gh/wecacuee/ECE490-Neural-Networks/HEAD?labpath=notebooks%2F02-linear-models%2FPlaneFitProblem.ipynb
 [V0202]: {{site.baseurl}}/posts/2023-02-02-lm2-video
 
 <!-- 
