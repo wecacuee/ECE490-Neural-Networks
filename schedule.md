@@ -82,7 +82,7 @@ title: Schedule
     
 * 02/01
    + [LinearModels2.pdf][S022]
-   + [PlaneFitProblem.ipynb][HW202], [Download PlaneFitProblem.ipynb][DHW202]
+   + [PlaneFitProblem_Colab.ipynb][HW202], [Download PlaneFitProblem.ipynb][DHW202]
    + [Video][V0202]
    + [Read Chapter 2 of MML Book][MML2]
 
@@ -95,7 +95,8 @@ title: Schedule
  
 [IP022]: {{colabbaseurl}}/notebooks/02-linear-models/LinearModels2.ipynb
 [S022]: {{site.baseurl}}/notebooks/02-linear-models/lm2/LinearModels2.pdf.pdf
-[HW202]: https://mybinder.org/v2/gh/wecacuee/ECE490-Neural-Networks/HEAD?labpath=notebooks%2F02-linear-models%2FPlaneFitProblem.ipynb
+[HW202]: {{colabbaseurl}}/notebooks/02-linear-models/PlaneFitProblem_Colab.ipynb
+[BHW202]: https://mybinder.org/v2/gh/wecacuee/ECE490-Neural-Networks/HEAD?labpath=notebooks%2F02-linear-models%2FPlaneFitProblem.ipynb
 [DHW202]: {{site.baseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
 [V0202]: {{site.baseurl}}/posts/2023-02-02-lm2-video
 
