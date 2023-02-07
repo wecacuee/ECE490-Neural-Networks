@@ -106,6 +106,7 @@ title: Schedule
     + [Perceptron.ipynb][IP207]
 
 [IP207]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron.ipynb
+[S207]: {{site.baseurl}}/assets/0000-00-07-linear/Perceptron\ slides.pdf
 
 <!-- 
 ## Homework 0
