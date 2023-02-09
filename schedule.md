@@ -100,7 +100,7 @@ title: Schedule
 [DHW202]: {{site.baseurl}}/notebooks/02-linear-models/PlaneFitProblem.ipynb
 [V0202]: {{site.baseurl}}/posts/2023-02-02-lm2-video
 
-## Week 4: Perceptron
+### Week 4: Perceptron
 
 * 02/07
     + [Perceptron.ipynb][IP207]
