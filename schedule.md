@@ -111,6 +111,16 @@ title: Schedule
 [S207]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron%20slides.pdf.pdf
 [V0206]: {{site.baseurl}}/posts/2023-02-07-perceptron-video
 
+
+* 02/09
+    + [Perceptron2.ipynb][IP209]
+    + [Slides][S209]
+    + [Video][V0209]
+
+[IP209]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron2.ipynb
+[S209]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron-slides-2.pdf.pdf
+[V0209]: {{site.baseurl}}/posts/2023-02-09-perceptron-2-video
+
 <!-- 
 ## Homework 0
 
