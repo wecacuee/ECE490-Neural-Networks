@@ -121,6 +121,15 @@ title: Schedule
 [S209]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron-slides-2.pdf.pdf
 [V0209]: {{site.baseurl}}/posts/2023-02-09-perceptron-2-video
 
+### Week 5: Perceptron continued
+
+* 02/09
+    + [Perceptron3.ipynb][IP214]
+    + [Slides][S214]
+
+[IP214]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron3.ipynb
+[S214]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron3.slides.pdf
+
 <!-- 
 ## Homework 0
 
