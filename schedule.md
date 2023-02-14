@@ -128,7 +128,7 @@ title: Schedule
     + [Slides][S214]
 
 [IP214]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron3.ipynb
-[S214]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron3.slides.pdf
+[S214]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron3.slides.pdf.pdf
 
 <!-- 
 ## Homework 0
