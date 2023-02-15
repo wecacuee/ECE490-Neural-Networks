@@ -55,9 +55,8 @@ Paste the following text into your sbatch script, and save the file.
     #SBATCH --mem=5GB
     #SBATCH --output=/home/$USER/jupyter.log
 
-    module load anaconda3/2022.10 # Load conda
-    $INIT_CONDA                   # initialize conda
-    jupyter notebook --ip=0.0.0.0 # start jupyter notebook
+    module load nv/pytorch # Load pytorch singularity image
+    singularity shell --nv $PYTORCH_CONT jupyter notebook --ip=0.0.0.0 # start jupyter notebook
 
 
 **Replace the `$USER` part
@@ -117,6 +116,9 @@ The log file will output something like this:
          or http://127.0.0.1:8888/?token=8a5d8e1laskdjfl1askjdfl1ksjadfl1kjsadlfsjadc3386
 
 **Note the http://HOSTNAME:REMOTE_PORT/token=TOKEN in the first part, you'll need that info  to setup a port-forwarding connection. For me, the HOSTNAME=grtx-1.cluster, REMOTE_PORT=8888, and TOKEN=8a5d8e1laskdjfl1askjdfl1ksjadfl1kjsadlfsjadc3386**
+
+**If the output simply says http://hostname:8888/ then you have to use the
+ouptut of squeue -u $USER under the nodelist column**
 
 #### Create an SSH tunnel
 
