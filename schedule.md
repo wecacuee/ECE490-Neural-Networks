@@ -134,7 +134,7 @@ title: Schedule
     + [Autograd.ipynb][IP216]
     + [Slides][S216]
 
-[IP216]: {{colabbaseurl}}/notebooks/02-linear-models/Autograd.ipynb
+[IP216]: {{colabbaseurl}}/notebooks/03-autograd/Autograd.ipynb
 [S216]: {{site.baseurl}}/assets/0000-00-11-autograd/Autograd.slides.pdf.pdf
 
 
