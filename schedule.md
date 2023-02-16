@@ -123,12 +123,22 @@ title: Schedule
 
 ### Week 5: Perceptron continued
 
-* 02/09
+* 02/14
     + [Perceptron3.ipynb][IP214]
     + [Slides][S214]
 
 [IP214]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron3.ipynb
 [S214]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron3.slides.pdf.pdf
+
+* 02/16
+    + [Autograd.ipynb][IP216]
+    + [Slides][S216]
+
+[IP216]: {{colabbaseurl}}/notebooks/02-linear-models/Autograd.ipynb
+[S216]: {{site.baseurl}}/assets/0000-00-11-autograd/Autograd.slides.pdf.pdf
+
+
+* 
 
 <!-- 
 ## Homework 0
