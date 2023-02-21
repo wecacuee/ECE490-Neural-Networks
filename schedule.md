@@ -24,7 +24,12 @@ title: Schedule
 | 01/31 |  [Slides][S021]     | [🎥][V0131]  | [1][PyMPL]    |                |
 |       |  [IPYNB][IP021]     |              | [2][PyNP]     |                |
 |       |                     |              | [3][MML2]     |                |
-| 02/02 | [Slides][S022]      | [🎥][V0131]  | [4][MML2]     | [HW2][HW202]  |
+| 02/01 | [Slides][S022]      | [🎥][V0202]  | [4][MML2]     | [HW2][HW202]  |
+| 02/07 | [Slides][S207]      | [🎥][V0207]  |               |               |
+| 02/09 | [Slides][S209]      | [🎥][V0209]  |               |               |
+| 02/14 | [Slides][S214]      | [🎥][V0214]  |               |               |
+| 02/16 | [Slides][S216]      | [🎥][V0216]  |               |               |
+| 02/21 | [Slides][S221]      | [🎥][V0221]  |               |               |
 
 
 ## Material by week
@@ -80,7 +85,7 @@ title: Schedule
     + [LinearModels slides annotated.pdf][S021]
     + [Video ][V0131]
     
-* 02/01
+* 02/02
    + [LinearModels2.pdf][S022]
    + [PlaneFitProblem_Colab.ipynb][HW202], [Download PlaneFitProblem.ipynb][DHW202]
    + [Video][V0202]
@@ -105,11 +110,11 @@ title: Schedule
 * 02/07
     + [Perceptron.ipynb][IP207]
     + [Slides][S207]
-    + [Video][V0206]
+    + [Video][V0207]
 
 [IP207]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron.ipynb
 [S207]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron%20slides.pdf.pdf
-[V0206]: {{site.baseurl}}/posts/2023-02-07-perceptron-video
+[V0207]: {{site.baseurl}}/posts/2023-02-07-perceptron-video
 
 
 * 02/09
@@ -126,19 +131,33 @@ title: Schedule
 * 02/14
     + [Perceptron3.ipynb][IP214]
     + [Slides][S214]
+    + [Video][V0214]
 
 [IP214]: {{colabbaseurl}}/notebooks/02-linear-models/Perceptron3.ipynb
 [S214]: {{site.baseurl}}/assets/0000-00-07-linear-models/Perceptron3.slides.pdf.pdf
+[V0214]: {{site.baseurl}}/posts/2023-02-14-perceptron-2-video
 
 * 02/16
     + [Autograd.ipynb][IP216]
     + [Slides][S216]
+    + [Video][V0216]
 
 [IP216]: {{colabbaseurl}}/notebooks/03-autograd/Autograd.ipynb
 [S216]: {{site.baseurl}}/assets/0000-00-11-autograd/Autograd.slides.pdf.pdf
+[V0216]: {{site.baseurl}}/posts/2023-02-16-autograd-video
 
 
-* 
+### Week 6: Autograd and review 
+
+* 02/21
+    + [NumpyTutorial.ipynb][IP221]
+    + [Practice Problem solutions.pdf][HW221]
+
+[IP221]: {{colabbaseurl}}/notebooks/04-review/NumpyTutorial.ipynb
+[HW221]: {{site.baseurl}}/assets/0000-00-12-review/Practice%20Problems.pdf
+
+* 02/23
+
 
 <!-- 
 ## Homework 0
