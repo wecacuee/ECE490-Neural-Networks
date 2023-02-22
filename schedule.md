@@ -152,9 +152,11 @@ title: Schedule
 * 02/21
     + [NumpyTutorial.ipynb][IP221]
     + [Practice Problem solutions.pdf][HW221]
+    + [Video][V0221]
 
 [IP221]: {{colabbaseurl}}/notebooks/04-review/NumpyTutorial.ipynb
 [HW221]: {{site.baseurl}}/assets/0000-00-12-review/Practice%20Problems.pdf
+[V0221]: {{site.baseurl}}/posts/2023-02-21-autograd-video
 
 * 02/23
 
