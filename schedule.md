@@ -30,6 +30,7 @@ title: Schedule
 | 02/14 | [Slides][S214]      | [🎥][V0214]  |               |               |
 | 02/16 | [Slides][S216]      | [🎥][V0216]  |               |               |
 | 02/21 | [Slides][S221]      | [🎥][V0221]  |               |               |
+| 02/23 | [Slides][S223]      | [🎥][V0223]  |               |               |
 
 
 ## Material by week
@@ -159,6 +160,12 @@ title: Schedule
 [V0221]: {{site.baseurl}}/posts/2023-02-21-autograd-video
 
 * 02/23
+
+    + [AutogradNumpy.ipynb][IP223]
+    + [Video][V0223]
+
+[IP223]: {{colabbaseurl}}/notebooks/03-autograd/AutogradNumpy.ipynb
+[V0223]: {{site.baseurl}}/posts/2023-02-23-autograd-video
 
 
 <!-- 
