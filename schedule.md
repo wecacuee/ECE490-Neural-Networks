@@ -162,10 +162,12 @@ title: Schedule
 * 02/23
 
     + [AutogradNumpy.ipynb][IP223]
+    + [Autograd Derivations][S223]
     + [Video][V0223]
 
 [IP223]: {{colabbaseurl}}/notebooks/03-autograd/AutogradNumpy.ipynb
 [V0223]: {{site.baseurl}}/posts/2023-02-23-autograd-video
+[S223]: {{site.baseurl}}/assets/0000-00-12-review/02-23-Practice-Problems.pdf
 
 
 <!-- 
