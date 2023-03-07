@@ -169,6 +169,16 @@ title: Schedule
 [V0223]: {{site.baseurl}}/posts/2023-02-23-autograd-video
 [S223]: {{site.baseurl}}/assets/0000-00-12-review/02-23-Practice-Problems.pdf
 
+* 02/28
+
+* 03/07
+    + [microtorch.ipynb][microtorch.ipynb]
+    + [microtorch.py][microtorch.py]
+    + [microtorch_nn.py][microtorch_nn.py]
+
+[microtorch.ipynb]: {{colabbaseurl}}/notebooks/05-mlp/microtorch.ipynb
+[microtorch.py]: {{colabbaseurl}}/notebooks/05-mlp/microtorch.py
+[microtorch_nn.py]: {{colabbaseurl}}/notebooks/05-mlp/microtorch_nn.py
 
 <!-- 
 ## Homework 0
