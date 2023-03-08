@@ -1,5 +1,6 @@
 import microtorch as t
 import numpy as np
+from collections import OrderedDict
 
 class Parameter(t.Tensor):
     """
@@ -18,20 +19,18 @@ class Module:
     More details here: https://pytorch.org/docs/stable/notes/modules.html
     """
     def __init__(self):
-        super().__setattr__('_parameters', {})
-        super().__setattr__('_modules', {})
+        # https://docs.python.org/3/library/functions.html#super
+        # Return a proxy object that delegates method calls to a parent or sibling class of type. This is useful for accessing inherited methods that have been overridden in a class.
+        super().__setattr__('_parameters', OrderedDict())
+        super().__setattr__('_modules', OrderedDict())
+   
+    
+    def __call__(self, *a, **kw): 
+        return self.forward(*a, **kw)
 
     def forward(self, *args):
         pass
     
-    def named_children(self):
-        return self._modules.items()
-    
-    def named_modules(self):
-        for mname, module in self._modules.items():
-            for mn, mod in module.named_modules():
-                yield mn, mod
-
     def named_parameters(self):
         for mname, module in self._modules.items():
             for pname, param in module.named_parameters():
@@ -40,9 +39,20 @@ class Module:
     def parameters(self):
         return (param for pname, param in self.named_parameters())
     
-    def __call__(self, *a, **kw): return self.forward(*a, **kw)
-    
     def __setattr__(self, k, v):
+        """
+        https://docs.python.org/3/reference/datamodel.html?#object.__setattr__
+        
+        Attribute: a value associated with an object which is usually referenced by name using dotted expressions. For example, if an object o has an attribute a it would be referenced as o.a.
+        
+            https://docs.python.org/3/glossary.html?highlight=glossary#term-attribute
+        
+        __setattr__ is called when an attribute assignment is attempted (o.a = something). This is called instead of the normal mechanism (i.e. store the value in the instance dictionary). name is the attribute name, value is the value to be assigned to it.
+
+        If __setattr__() wants to assign to an instance attribute, it should call the base class method with the same name, for example, object.__setattr__(self, name, value).
+
+        For certain sensitive attribute assignments, raises an auditing event object.__setattr__ with arguments obj, name, value.
+        """     
         if isinstance(v, Parameter):
             self._parameters[k] = v
         elif isinstance(v, Module):
@@ -51,6 +61,14 @@ class Module:
             super().__setattr__(k, v)
             
     def __getattr__(self, name):
+        """
+        https://docs.python.org/3/reference/datamodel.html?#object.__getattr__
+        
+        Called when the default attribute access fails with an AttributeError (either __getattribute__() raises an AttributeError because name is not an instance attribute or an attribute in the class tree for self; or __get__() of a name property raises AttributeError). This method should either return the (computed) attribute value or raise an AttributeError exception.
+
+        Note that if the attribute is found through the normal mechanism, __getattr__() is not called. (This is an intentional asymmetry between __getattr__() and __setattr__().) This is done both for efficiency reasons and because otherwise __getattr__() would have no way to access other attributes of the instance. Note that at least for instance variables, you can fake total control by not inserting any values in the instance attribute dictionary (but instead inserting them in another object). See the __getattribute__() method below for a way to actually get total control over attribute access.
+
+        """
         if '_parameters' in self.__dict__:
             _parameters = self.__dict__['_parameters']
             if name in _parameters:
@@ -59,17 +77,39 @@ class Module:
             modules = self.__dict__['_modules']
             if name in modules:
                 return modules[name]
+    def __repr__(self):
+        cls_name = type(self).__name__
+        return f'{cls_name}({self._modules})'
     
 def relu(x):
     return t.maximum(x, 0)
 
 class Linear(Module):
-    def __init__(self, in_features, out_features, bias=True):
+    """
+    Implements a simple Linear Layer
+    
+    linear_module = Linear(2, 5)
+    
+    
+    predicted_labels = linear_module(input_x)
+    
+    This is same as calling
+    
+        predicted_labels = input_x @ W.T + b
+    
+    where W is 5 x 2 matrix and b is a 5 x 1 vector
+    
+    The Module has an additional advantage of keeping track of all the parameters.
+    """
+    # Implements W @ x + b even when x is (n, d)
+    def __init__(self, in_features, out_features):
         super().__init__()
+        # All the parameters are tracked for later retrieval through parameters
         self.W = Parameter(np.random.rand(out_features, in_features))
         self.b = Parameter(np.random.rand(out_features))
     
     def forward(self, x):
+        # Implements W @ x + b even when x is (n, d)
         return x @ self.W.T + self.b
     
 class ReLU(Module):
@@ -77,9 +117,21 @@ class ReLU(Module):
         return relu(x)
 
 class Sequential(Module):
+    """
+    Chains together modules.
+    
+    For example for a 2-Layer Neural Network :
+    
+    first_linear = Linear(2, 5)
+    first_activation = ReLU()
+    second_linear = Linear(5, 1)
+    
+    chained_modules = Sequential(first_linear, first_activation, second_linear)
+    
+    predicted_labels = chained_modules(input_x)
+    """
     def __init__(self, *modules):
         super().__init__()
-        self._seq_modules = modules
         for idx, mod in enumerate(modules):
             self._modules[str(idx)] = mod
         
@@ -88,8 +140,11 @@ class Sequential(Module):
             x = mod(x)
         return x
     
-def mse_loss(x, y):
-    return ((x - y)**2).mean()
+def mse_loss(yhat, y):
+    return ((yhat - y)**2).mean()
+
+def thresholded_l1_loss(yhat, y):
+    return t.maximum(-yhat * y, 0)
 
 
     

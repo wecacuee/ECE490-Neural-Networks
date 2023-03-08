@@ -135,7 +135,7 @@ def maximum_vjp(dldf, a, b):
     dldb = dldf * np.where(a > b, 0, 1)
     return unbroadcast(a, dlda), unbroadcast(b, dldb)
 
-maximum = Op(
+maxop = Op(
     apply=np.maximum,
     vjp=maximum_vjp,
     name='maximum',
@@ -143,7 +143,7 @@ maximum = Op(
 
 transpose = Op(
     apply=np.transpose,
-    vjp=np.transpose,
+    vjp=lambda dldf, x, **kw: (np.transpose(dldf, **kw),),
     name='transpose',
     nargs=1)
 
@@ -164,11 +164,12 @@ class Tensor:
     dtype = property(lambda self: self.value.dtype)
     T = property(lambda self: self.transpose())
     
-    def transpose(self, *args):
+    def transpose(self, **kw):
         cls = type(self)
-        return cls(self.value.transpose(*args),
+        return cls(transpose.apply(self.value, **kw),
                    parents=(self,),
-                   op
+                   kwargs=kw,
+                   op=transpose)
     
     def __add__(self, other):
         cls = type(self)
@@ -244,9 +245,9 @@ def log(tensor):
 def maximum(tensor, other):
     tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
     other = other if isinstance(other, Tensor) else Tensor(other)
-    return cls(maximum.apply(tensor.value, other.value),
-                   parents=(self, other),
-                   op=maximum)
+    return Tensor(maxop.apply(tensor.value, other.value),
+                   parents=(tensor, other),
+                   op=maxop)
 
 def trace(root):
     nodes, edges = set(), set()
