@@ -177,8 +177,8 @@ title: Schedule
     + [microtorch_nn.py][microtorch_nn.py]
 
 [microtorch.ipynb]: {{colabbaseurl}}/notebooks/05-mlp/microtorch.ipynb
-[microtorch.py]: {{colabbaseurl}}/notebooks/05-mlp/microtorch.py
-[microtorch_nn.py]: {{colabbaseurl}}/notebooks/05-mlp/microtorch_nn.py
+[microtorch.py]: {{site.baseurl}}/notebooks/05-mlp/microtorch.py
+[microtorch_nn.py]: {{site.baseurl}}/notebooks/05-mlp/microtorch_nn.py
 
 <!-- 
 ## Homework 0
