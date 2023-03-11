@@ -187,6 +187,7 @@ title: Schedule
     + Midterm exam
 
 ### Week 8: Multi Layer Perceptron
+
 * 03/07
     + [Notes][S0307]
     + [microtorch.ipynb][microtorch.ipynb]
