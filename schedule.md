@@ -31,6 +31,9 @@ title: Schedule
 | 02/16 | [Slides][S216]      | [🎥][V0216]  |               |               |
 | 02/21 | [Slides][S221]      | [🎥][V0221]  |               |               |
 | 02/23 | [Slides][S223]      | [🎥][V0223]  |               |               |
+| 02/28 | [Slides][S0228]     | [🎥][V0228]  |               |               |
+| 03/07 | [Slides][S0207]     | [🎥][V0307]  |               |               |
+| 03/09 | [Slides][S0209]     | [🎥][V0309]  |               |               |
 
 
 ## Material by week
@@ -169,16 +172,38 @@ title: Schedule
 [V0223]: {{site.baseurl}}/posts/2023-02-23-autograd-video
 [S223]: {{site.baseurl}}/assets/0000-00-12-review/02-23-Practice-Problems.pdf
 
-* 02/28
+###  Week 7: Multi Layer Perceptron
 
+* 02/28
+    + [Notes][S0228]
+    + [Video][V0228]
+
+[S0228]: {{site.baseurl}}/assets/0000-00-13-mlp/MLP.pdf.pdf
+[V0228]: {{site.baseurl}}/posts/2023-02-28-video
+
+* 03/02
+    + Midterm exam
+
+### Week 8: Multi Layer Perceptron
 * 03/07
+    + [Notes][S0307]
     + [microtorch.ipynb][microtorch.ipynb]
     + [microtorch.py][microtorch.py]
     + [microtorch_nn.py][microtorch_nn.py]
+    + [Video][V0307]
 
 [microtorch.ipynb]: {{colabbaseurl}}/notebooks/05-mlp/microtorch.ipynb
 [microtorch.py]: {{site.baseurl}}/notebooks/05-mlp/microtorch.py
 [microtorch_nn.py]: {{site.baseurl}}/notebooks/05-mlp/microtorch_nn.py
+[V0307]: {{site.baseurl}}/posts/2023-03-07-video
+[S0307]: {{site.baseurl}}/notebooks/05-mlp/DataModelsAndLearning.pdf.pdf
+
+* 03/09
+    + [Probability basic Notes][S0309]
+    + [Video][V0309]
+
+[S0309]: {{site.baseurl}}/assets/0000-00-14-prob/023-03-09-Note-15-17.pdf
+[V0309]: {{site.baseurl}}/posts/2023-03-07-video
 
 <!-- 
 ## Homework 0
