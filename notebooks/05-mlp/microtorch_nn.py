@@ -136,7 +136,8 @@ class Sequential(Module):
             self._modules[str(idx)] = mod
         
     def forward(self, x):
-        for mod in self._seq_modules:
+        for idx in range(len(self._modules)):
+            mod = self._modules[str(idx)]
             x = mod(x)
         return x
     
