@@ -148,6 +148,21 @@ transpose = Op(
     nargs=1)
 
 NoOp = Op(apply=None, name='', vjp=None, nargs=0)
+
+
+
+def exp(tensor):
+    tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
+    return Tensor(exp.apply(tensor.value),
+                parents=(tensor,),
+                op=exp)
+
+def log(tensor):
+    tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
+    return Tensor(log.apply(tensor.value),
+                parents=(tensor, ),
+                op=log)
+
 class Tensor:
     __array_priority__ = 100
     def __init__(self, value, grad=None, parents=(), op=NoOp, kwargs={}, requires_grad=True):
@@ -197,7 +212,7 @@ class Tensor:
     def __pow__(self, other):
         cls = type(self)
         other = other if isinstance(other, cls) else cls(other)
-        return (self.log() * other).exp()
+        return exp(log(self) * other)
     
     def __div__(self, other):
         return self * (other**(-1))
@@ -228,19 +243,6 @@ class Tensor:
             p_grads = self.op.vjp(grad, *p_vals, **self.kwargs)
             for p, g in zip(self.parents, p_grads):
                 p.backward(g)
-                
-def exp(tensor):
-    tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
-    return Tensor(exp.apply(tensor.value),
-                parents=(tensor,),
-                op=exp)
-    
-def log(tensor):
-    tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
-    return Tensor(log.apply(tensor.value),
-                parents=(tensor, ),
-                op=log)
-
 
 def maximum(tensor, other):
     tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
