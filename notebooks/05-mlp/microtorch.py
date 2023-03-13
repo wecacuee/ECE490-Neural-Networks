@@ -147,6 +147,12 @@ transpose = Op(
     name='transpose',
     nargs=1)
 
+ravel = Op(
+    apply=np.ravel,
+    vjp=lambda dldf, x: (np.ravel(dldf), ),
+    name='ravel',
+    nargs=1)
+
 NoOp = Op(apply=None, name='', vjp=None, nargs=0)
 
 
@@ -185,6 +191,12 @@ class Tensor:
                    parents=(self,),
                    kwargs=kw,
                    op=transpose)
+    
+    def ravel(self):
+        cls = type(self)
+        return cls(ravel.apply(self.value),
+                   parents=(self,),
+                   op=ravel)
     
     def __add__(self, other):
         cls = type(self)
@@ -240,6 +252,14 @@ class Tensor:
         cls = type(self)
         return f"{cls.__name__}(value={self.value}, op={self.op.name})" if self.parents else f"{cls.__name__}(value={self.value})"
         #return f"{cls.__name__}(value={self.value}, parents={self.parents}, op={self.op}"
+    
+    def zero_grad(self):
+        """
+        Sets grad to None
+        """
+        self.grad = None
+        for p in self.parents:
+            p.zero_grad()
     
     def backward(self, grad):
         self.grad = grad if self.grad is None else (self.grad+grad)
