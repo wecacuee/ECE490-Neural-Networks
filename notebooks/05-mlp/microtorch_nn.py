@@ -32,9 +32,11 @@ class Module:
         pass
     
     def named_parameters(self):
+        for pname, param in self._parameters.items():
+            yield pname, param
         for mname, module in self._modules.items():
             for pname, param in module.named_parameters():
-                yield ".".join(mname, pname), param
+                yield ".".join((mname, pname)), param
 
     def parameters(self):
         return (param for pname, param in self.named_parameters())

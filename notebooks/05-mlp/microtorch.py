@@ -208,6 +208,10 @@ class Tensor:
         return cls(matmul.apply(self.value, other.value),
                   parents=(self, other),
                   op=matmul)
+    def __rmatmul__(self, other):
+        cls = type(self)
+        other = other if isinstance(other, cls) else cls(other)
+        return other.__matmul__(self)
     
     def __pow__(self, other):
         cls = type(self)
@@ -216,6 +220,8 @@ class Tensor:
     
     def __div__(self, other):
         return self * (other**(-1))
+    
+    __truediv__ = __div__
     
     def __sub__(self, other):
         return self + (other * (-1))
