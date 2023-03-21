@@ -102,7 +102,7 @@ def exp_vjp(dldf, x):
     dldx = dldf * np.exp(x)
     return (unbroadcast(x, dldx),)
 
-expop = Op(
+exp = Op(
     apply=np.exp,
     vjp=exp_vjp,
     name='exp',
@@ -111,7 +111,7 @@ expop = Op(
 def log_vjp(dldf, x):
     dldx = dldf / x
     return (unbroadcast(x, dldx),)
-logop = Op(
+log = Op(
     apply=np.log,
     vjp=log_vjp,
     name='log',
@@ -153,15 +153,15 @@ NoOp = Op(apply=None, name='', vjp=None, nargs=0)
 
 def exp(tensor):
     tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
-    return Tensor(expop.apply(tensor.value),
+    return Tensor(exp.apply(tensor.value),
                 parents=(tensor,),
-                op=expop)
+                op=exp)
 
 def log(tensor):
     tensor = tensor if isinstance(tensor, Tensor) else Tensor(tensor)
-    return Tensor(logop.apply(tensor.value),
+    return Tensor(log.apply(tensor.value),
                 parents=(tensor, ),
-                op=logop)
+                op=log)
 
 class Tensor:
     __array_priority__ = 100

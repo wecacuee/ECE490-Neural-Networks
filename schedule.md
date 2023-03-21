@@ -206,7 +206,7 @@ title: Schedule
     + [Video][V0309]
 
 [S0309]: {{site.baseurl}}/assets/0000-00-14-prob/023-03-09-Note-15-17.pdf
-[V0309]: {{site.baseurl}}/posts/2023-03-07-video
+[V0309]: {{site.baseurl}}/posts/2023-03-09-video
 
 <!-- 
 ## Homework 0
