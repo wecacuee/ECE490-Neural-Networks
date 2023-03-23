@@ -24,16 +24,18 @@ title: Schedule
 | 01/31 |  [Slides][S021]     | [🎥][V0131]  | [1][PyMPL]    |                |
 |       |  [IPYNB][IP021]     |              | [2][PyNP]     |                |
 |       |                     |              | [3][MML2]     |                |
-| 02/01 | [Slides][S022]      | [🎥][V0202]  | [4][MML2]     | [HW2][HW202]  |
-| 02/07 | [Slides][S207]      | [🎥][V0207]  |               |               |
-| 02/09 | [Slides][S209]      | [🎥][V0209]  |               |               |
-| 02/14 | [Slides][S214]      | [🎥][V0214]  |               |               |
-| 02/16 | [Slides][S216]      | [🎥][V0216]  |               |               |
-| 02/21 | [Slides][S221]      | [🎥][V0221]  |               |               |
-| 02/23 | [Slides][S223]      | [🎥][V0223]  |               |               |
-| 02/28 | [Slides][S0228]     | [🎥][V0228]  |               |               |
-| 03/07 | [Slides][S0307]     | [🎥][V0307]  |               |               |
-| 03/09 | [Slides][S0309]     | [🎥][V0309]  |               |               |
+| 02/01 | [Slides][S022]      | [🎥][V0202]  | [4][MML2]     | [HW2][HW202]   |
+| 02/07 | [Slides][S207]      | [🎥][V0207]  | [5][MML5]     |                |
+| 02/09 | [Slides][S209]      | [🎥][V0209]  | [5][MML5]     |                |
+| 02/14 | [Slides][S214]      | [🎥][V0214]  | [5][MML5]     |                |
+| 02/16 | [Slides][S216]      | [🎥][V0216]  | [5][MML5]     |                |
+| 02/21 | [Slides][S221]      | [🎥][V0221]  | [5][MML5]     |                |
+| 02/23 | [Slides][S223]      | [🎥][V0223]  | [5][MML5]     |                |
+| 02/28 | [Slides][S0228]     | [🎥][V0228]  | [5][MML5]     |                |
+| 03/07 | [Slides][S0307]     | [🎥][V0307]  | [5][MML5]     |                |
+| 03/09 | [Slides][S0309]     | [🎥][V0309]  | [6][MML6]     |                |
+| 03/21 | [Slides][S0321]     | [🎥][V0323]  | [6][MML6]     |                |
+| 03/23 | [Slides][S0323]     | [🎥][V0323]  | [8][MML8]     |                |
 
 
 ## Material by week
@@ -99,6 +101,9 @@ title: Schedule
 [S021]: {{site.baseurl}}/assets/0000-00-07-linear-models/LinearModels%20slides.pdf.pdf
 [V0131]: {{site.baseurl}}/posts/2023-01-31-linear-models-video
 [MML2]: https://mml-book.github.io/ "Chapter 2 of MML Book"
+[MML5]: https://mml-book.github.io/ "Chapter 5 of MML Book"
+[MML6]: https://mml-book.github.io/ "Chapter 6 of MML Book"
+[MML8]: https://mml-book.github.io/ "Chapter 8 of MML Book"
 [PyMPL]: https://matplotlib.org/stable/tutorials/index.html
 [PyNP]: https://numpy.org/devdocs/user/quickstart.html
  
@@ -205,8 +210,24 @@ title: Schedule
     + [Probability basic Notes][S0309]
     + [Video][V0309]
 
-[S0309]: {{site.baseurl}}/assets/0000-00-14-prob/023-03-09-Note-15-17.pdf
+[S0309]: {{site.baseurl}}/assets/0000-00-14-prob/2023-03-09-Note-15-17.pdf
 [V0309]: {{site.baseurl}}/posts/2023-03-09-video
+
+### Week 9: Probability and Machine Learning
+
+* 03/21
+    + [Probability basic Notes 2][S0321]
+    + [Video][V0321]
+
+[S0321]: {{site.baseurl}}/assets/0000-00-14-prob/2023-03-21.pdf
+[V0321]: {{site.baseurl}}/posts/2023-03-21-video
+
+* 03/23
+    + [Probability basic Notes 3][S0323]
+    + [Video][V0323]
+
+[S0323]: {{site.baseurl}}/assets/0000-00-14-prob/2023-03-23.pdf
+[V0323]: {{site.baseurl}}/posts/2023-03-23-video
 
 <!-- 
 ## Homework 0
