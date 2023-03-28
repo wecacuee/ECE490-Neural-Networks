@@ -229,6 +229,17 @@ title: Schedule
 [S0323]: {{site.baseurl}}/assets/0000-00-14-prob/2023-03-23.pdf
 [V0323]: {{site.baseurl}}/posts/2023-03-23-video
 
+
+### Week 10: Pytorch
+
+* 03/28
+    + [MLP Using Pytorch.ipynb][IP328]
+    + [NumpyTutorial-Pytorched.ipynb][IP328b]
+
+[IP328]: {{colabbaseurl}}/notebooks/06-pytorch/MLP%20Using%20Pytorch.ipynb
+[IP328b]: {{colabbaseurl}}/notebooks/06-pytorch/NumpyTutorial-Pytorched.ipynb
+
+
 <!-- 
 ## Homework 0
 
