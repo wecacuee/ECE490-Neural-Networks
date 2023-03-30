@@ -239,6 +239,11 @@ title: Schedule
 [IP328]: {{colabbaseurl}}/notebooks/06-pytorch/MLP%20Using%20Pytorch.ipynb
 [IP328b]: {{colabbaseurl}}/notebooks/06-pytorch/NumpyTutorial-Pytorched.ipynb
 
+* 03/30
+    + [CNN.ipynb][IP330]
+
+[IP330]: {{colabbaseurl}}/notebooks/07-cnn/CNN.ipynb
+
 
 <!-- 
 ## Homework 0
