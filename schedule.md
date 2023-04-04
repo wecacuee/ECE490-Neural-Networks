@@ -244,6 +244,11 @@ title: Schedule
 
 [IP330]: {{colabbaseurl}}/notebooks/07-cnn/CNN.ipynb
 
+* 04/04
+    + [Review][IP404]
+
+[IP404]: {{colabbaseurl}}/notebooks/08-review/Midterm%202%20Review.ipynb
+
 
 <!-- 
 ## Homework 0
