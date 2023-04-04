@@ -236,26 +236,32 @@ title: Schedule
     + [MLP Using Pytorch.ipynb][IP328]
     + [NumpyTutorial-Pytorched.ipynb][IP328b]
     + [Video][V0328]
+    + [Notes][S0328]
 
 [IP328]: {{colabbaseurl}}/notebooks/06-pytorch/MLP%20Using%20Pytorch.ipynb
 [IP328b]: {{colabbaseurl}}/notebooks/06-pytorch/NumpyTutorial-Pytorched.ipynb
 [V0328]: {{site.baseurl}}/posts/2023-03-28-video
+[S0328]: {{site.baseurl}}/notebooks/06-pytorch/MLP%20Using%20Pytorch.pdf.pdf
 
 * 03/30
     + [CNN.ipynb][IP330]
     + [Video][V0330]
+    + [Notes][S0330]
 
 [IP330]: {{colabbaseurl}}/notebooks/07-cnn/CNN.ipynb
 [V0330]: {{site.baseurl}}/posts/2023-03-30-video
+[S0330]: {{site.baseurl}}/notebooks/07-cnn/CNN.pdf.pdf
 
 ### Week 11: CNN
 
 * 04/04
     + [Review][IP404]
     + [Video][V0404]
+    + [Notes](S0404)
 
 [IP404]: {{colabbaseurl}}/notebooks/08-review/Midterm%202%20Review.ipynb
 [V0404]: {{site.baseurl}}/posts/2023-04-04-video
+[S0405]: {{site.baseurl}}/assets/0000-00-15-review/midterm2autograd.pdf.pdf
 
 <!-- 
 ## Homework 0
