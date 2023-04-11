@@ -257,11 +257,27 @@ title: Schedule
 * 04/04
     + [Review][IP404]
     + [Video][V0404]
-    + [Notes](S0404)
+    + [Notes][S0404]
 
 [IP404]: {{colabbaseurl}}/notebooks/08-review/Midterm%202%20Review.ipynb
 [V0404]: {{site.baseurl}}/posts/2023-04-04-video
-[S0405]: {{site.baseurl}}/assets/0000-00-15-review/midterm2autograd.pdf.pdf
+[S0404]: {{site.baseurl}}/assets/0000-00-15-review/midterm2autograd.pdf.pdf
+
+* 04/06
+    + Midterm exam
+
+
+### Week 12: CNN
+
+* 04/11
+    + [Review][IP411]
+    + [Video][V0411]
+    + [Notes][S0411]
+
+[IP411]: {{colabbaseurl}}/notebooks/07-cnn/CNN-0411.ipynb
+[V0411]: {{site.baseurl}}/posts/2023-04-11-video
+[IP411]: {{colabbaseurl}}/notebooks/07-cnn/CNN-0411.pdf.pdf
+
 
 <!-- 
 ## Homework 0
