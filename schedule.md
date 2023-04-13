@@ -270,13 +270,20 @@ title: Schedule
 ### Week 12: CNN
 
 * 04/11
-    + [Review][IP411]
+    + [Notebook][IP411]
     + [Video][V0411]
     + [Notes][S0411]
 
 [IP411]: {{colabbaseurl}}/notebooks/07-cnn/CNN-0411.ipynb
 [V0411]: {{site.baseurl}}/posts/2023-04-11-video
-[IP411]: {{colabbaseurl}}/notebooks/07-cnn/CNN-0411.pdf.pdf
+[S0411]: {{colabbaseurl}}/notebooks/07-cnn/CNN-0411.pdf.pdf
+
+* 04/13
+    + [Notebook][IP413]
+    + [Video][V0413]
+    + [Notes][S0413]
+
+[IP413]: {{colabbaseurl}}/notebooks/09-vanishing/VanishingAndExplodingGradients.ipynb
 
 
 <!-- 
