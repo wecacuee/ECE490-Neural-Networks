@@ -284,7 +284,17 @@ title: Schedule
     + [Notes][S0413]
 
 [IP413]: {{colabbaseurl}}/notebooks/09-vanishing/VanishingAndExplodingGradients.ipynb
+[V0413]: {{site.baseurl}}/posts/2023-04-13-video
+[S0413]: {{site.baseurl}}/notebooks/09-vanishing/VanishingAndExplodingGradients-0413.pdf.pdf
 
+### Week 13: Regularization
+
+* 04/18
+    + [Video][V0418]
+    + [Notes][S0418]
+
+[V0418]: {{site.baseurl}}/posts/2023-04-18-video
+[S0418]: {{site.baseurl}}/assets/0000-00-16-dropout-resnets/regularization.pdf
 
 <!-- 
 ## Homework 0
