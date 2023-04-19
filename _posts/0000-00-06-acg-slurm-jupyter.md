@@ -49,14 +49,14 @@ Paste the following text into your sbatch script, and save the file.
 {:.bash}
     #!/bin/bash
     #SBATCH --job-name=jupyter
-    #SBATCH --partition=gtrx # You can pick from https://acg.maine.edu/hpc#h.b5slztm4yz12
+    #SBATCH --partition=grtx # You can pick from https://acg.maine.edu/hpc#h.b5slztm4yz12
     #SBATCH --gres=gpu:1 # not clear if this is obeyed https://slurm.schedmd.com/gres.html
     #SBATCH --time=2-00:00:00
     #SBATCH --mem=5GB
-    #SBATCH --output=/home/$USER/jupyter.log
+    #SBATCH --output=/home/%u/logs-jupyter-%x-%j.log
 
     module load nv/pytorch # Load pytorch singularity image
-    singularity shell --nv $PYTORCH_CONT jupyter notebook --ip=0.0.0.0 # start jupyter notebook
+    singularity exec --nv $PYTORCH_CONT jupyter notebook --ip=0.0.0.0 # start jupyter notebook
 
 
 **Replace the `$USER` part
