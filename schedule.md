@@ -296,6 +296,18 @@ title: Schedule
 [V0418]: {{site.baseurl}}/posts/2023-04-18-video
 [S0418]: {{site.baseurl}}/assets/0000-00-16-dropout-resnets/regularization.pdf
 
+* 04/20
+    + [Video][V0420]
+    + [Regualization][S0420a]
+    + [Resnets][S0420b]
+
+[V0420]: {{site.baseurl}}/posts/2023-04-20-video
+[S0420a]: {{site.baseurl}}/assets/0000-00-16-dropout-resnets/regularization-0420.pdf
+[S0420b]: {{site.baseurl}}/assets/0000-00-16-dropout-resnets/resnets.pdf
+
+
+### Week 14: 
+
 <!-- 
 ## Homework 0
 
