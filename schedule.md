@@ -308,6 +308,20 @@ title: Schedule
 
 ### Week 14: 
 
+* 04/25
+    + [Video][V0425]
+    + [Transformers][S0425]
+
+[V0425]: {{site.baseurl}}/posts/2023-04-25-video
+[S0425]: {{site.baseurl}}/assets/0000-00-17-transformers/transformers.pdf
+
+* 04/27
+    + [Video][V0427]
+    + [Summarizing][S0427]
+ 
+[V0427]: {{site.baseurl}}/posts/2023-04-27-video
+[S0427]: {{site.baseurl}}/assets/0000-00-18-summarizing/summarizing.pdf
+
 <!-- 
 ## Homework 0
 
