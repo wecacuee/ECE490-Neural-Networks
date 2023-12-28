@@ -114,11 +114,30 @@ The log file will output something like this:
         Or copy and paste one of these URLs:
             http://grtx-1.cluster:8888/?token=8a5d8e1laskdjfl1askjdfl1ksjadfl1kjsadlfsjadc3386
          or http://127.0.0.1:8888/?token=8a5d8e1laskdjfl1askjdfl1ksjadfl1kjsadlfsjadc3386
+         
+Note the file after "open this file in a browser". Remove the `file://` search
+the file for link. For example,
+{:.text}
+    vdhiman@katahdin:~$ grep window.location.href /home/vdhiman/.local/share/jupyter/runtime/nbserver-12238-open.html 
+        window.location.href = "http://0.0.0.0:8888/tree?token=9946b79c2cae1c4744aa90ce58e4133add9d58d0ded77161";
+    vdhiman@katahdin:~$
+
+This will give you a link. Note the port number. For me that is 8888. Let's
+call this REMOTE_PORT=8888.
+
+First check if the status of the job under ST is R for running. Then look for string under NODELIST(REASON). This gives me the HOSTNAME. For me the HOSTNAME is grtx-1.
 
 **Note the http://HOSTNAME:REMOTE_PORT/token=TOKEN in the first part, you'll need that info  to setup a port-forwarding connection. For me, the HOSTNAME=grtx-1.cluster, REMOTE_PORT=8888, and TOKEN=8a5d8e1laskdjfl1askjdfl1ksjadfl1kjsadlfsjadc3386**
 
 **If the output simply says http://hostname:8888/ then you have to use the
 ouptut of squeue -u $USER under the nodelist column**
+
+We need to find the host where the job got scheduled. We can use squeue
+command to to that.
+{:.text}
+    vdhiman@katahdin:~$ squeue -u $USER
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           1086781      grtx  jupyter  vdhiman  R    3:14:58      1 grtx-1
 
 #### Create an SSH tunnel
 
